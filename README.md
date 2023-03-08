@@ -5,15 +5,15 @@
 2. add mongodb atlas connection string
 3. write App.test.js
 the most simple example
-    //import { render, screen } from '@testing-library/react';
-    //import App from './App';
-    //import '@testing-library/jest-dom';
-    //
-    //test('renders GetToDoItem component', () => {
-	//render(<App />);
-	//const linkElement = screen.getByText('My To Do Items');
-	//expect(linkElement).toBeInTheDocument();
-});
+    #import { render, screen } from '@testing-library/react';
+    #import App from './App';
+    #import '@testing-library/jest-dom';
+    #
+    #test('renders GetToDoItem component', () => {
+	#render(<App />);
+	#const linkElement = screen.getByText('My To Do Items');
+	#expect(linkElement).toBeInTheDocument();
+    #});
 4. run npm test
 5. commit and push
 
