@@ -18,6 +18,7 @@ the most simple example
  ```
 4. run npm test
 5. commit and push
+Bonus - use fireEvent, waitFor 
 
 On GitHub
 1. Create new workflow to run the test on PR to main
