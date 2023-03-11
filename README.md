@@ -22,4 +22,5 @@ the most simple example
 
 On GitHub
 1. Create new workflow to run the test on PR to main
-2. Create a new branch for the change (new yml file) and make a PR to confirm the test runs on PR
+2. Start Commit, Create a new branch for the change (new yml file) and make a PR to confirm the test runs on PR
+3. Make sure it's merged to main
