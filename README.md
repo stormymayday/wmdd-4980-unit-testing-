@@ -1,9 +1,12 @@
-# react-test-example - starter code for Github classroom
+# react-test-example - starter code 
 
 # Steps:
-1. npm install
-2. add mongodb atlas connection string
-3. write App.test.js
+1. Create a GitHub repo with this starter code
+2. Clone the repo to your local computer
+3. npm install
+4. create .env and add your own MongoDB Atlas connection string, then use the environment variable on connection.js
+5. Create a new branch 'unittest'
+6. write App.test.js
 the most simple example
 ```
     import { render, screen } from '@testing-library/react';
@@ -16,11 +19,14 @@ the most simple example
 	expect(linkElement).toBeInTheDocument();
     });
  ```
-4. run npm test
-5. commit and push
-6. Bonus(optional) - use fireEvent, waitFor 
+7. run npm test
+8. commit and push
+9. Bonus(optional) - use fireEvent, waitFor 
 
 On GitHub
-1. Create new workflow to run the test on PR to main
-2. Start Commit, Create a new branch for the change (new yml file) and make a PR to confirm the test runs on PR
-3. Make sure it's merged to main
+10. Create new workflow to run the test on PR to main
+11. Make a PR to confirm the test runs on PR
+12. Take a screenshot of the page showing the 'Test Passed'
+12. Make sure it's merged to main
+
+13. Submit the screenshot and a short comment about this exercise

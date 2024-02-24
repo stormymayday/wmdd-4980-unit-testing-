@@ -1,12 +1,9 @@
 const mongoose = require('mongoose');
 
-let mongoDB = `<YOUR CONNECTION STRING GOES HERE`;
+let mongoDB = ;
 
 ////EXAMPLE////
-//`mongodb+srv://<your mongodb atlas user name>:<your connection string>/<your collection name>?retryWrites=true&w=majority`
-
-//HOW DO I GET THE CONNECTION STRING?
-//https://www.mongodb.com/docs/guides/atlas/connection-string/
+// Make sure to create .env file and use an environment variable
 
 mongoose.connect(mongoDB, { useNewUrlParser: true, useUnifiedTopology: true });
 
